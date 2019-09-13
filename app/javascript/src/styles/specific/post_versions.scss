@@ -3,7 +3,7 @@
 div#c-post-versions {
   div#a-index {
     tr.hilite {
-      background: $highlight_color;
+      background: var(--table-row-hover-color);
     }
   }
 }

@@ -1,7 +1,7 @@
 @import "../base/000_vars.scss";
 
 body {
-  background-color: #FFF;
+  background-color: var(--body-background-color);
   font-family: $base_font_family;
   font-size: 87.5%;
   line-height: 1.25em;
@@ -14,8 +14,8 @@ abbr[title=required] {
 blockquote {
   margin: 0 0 1em 0;
   padding: 1em 1em 0.2em;
-  border: 1px solid #666;
-  background: #EEE;
+  border: 1px solid var(--blockquote-border-color);
+  background: var(--blockquote-background-color);
 }
 
 code {
@@ -88,17 +88,17 @@ table tfoot {
 }
 
 .hint {
-  color: #666;
+  color: var(--hint-color);
   font-style: italic;
 }
 
 .tn {
   font-size: 0.8em;
-  color: gray;
+  color: var(--translation-note-color);
 }
 
 p.info {
-  color: #AAA;
+  color: var(--info-color);
   font-style: italic;
   font-size: 80%;
 }

@@ -4,7 +4,7 @@ div#c-users {
   div#a-show {
     div.box {
       h2, h3 {
-        color: #333;
+        color: var(--profile-page-header-color);
       }
 
       margin-bottom: 2em;
@@ -57,7 +57,7 @@ div#c-users {
     }
 
     .active {
-      color: black;
+      color: var(--settings-page-active-tab-color);
     }
   }
 

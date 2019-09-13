@@ -55,18 +55,18 @@ div.prose {
     font-size: 1.2em;
     margin: 0.5em 0;
     padding: 0.5em 1em;
-    background: #EEE;
+    background: var(--dtext-code-background-color);
     white-space: pre-wrap;
   }
 
   code {
     font-family: monospace;
-    background: #EEE;
+    background: var(--dtext-code-background-color);
   }
 
   div.expandable {
     margin-bottom: 1em;
-    border: 1px inset #666;
+    border: 1px inset var(--dtext-expand-border-color);
   }
 
   div.expandable-header {
@@ -81,7 +81,7 @@ div.prose {
   div.expandable-content {
     display: none;
     padding: 0.4em;
-    border-top: 1px solid #666;
+    border-top: 1px solid var(--dtext-expand-border-color);
 
     > :last-child {
       margin-bottom: 0;

@@ -12,7 +12,7 @@ div.related-tags {
   width: 100%;
   margin-bottom: 1em;
   padding: 1em;
-  background: #EEE;
+  background: var(--related-tags-container-background);
   overflow: auto;
   border-radius: 4px;
   display: flex;
@@ -52,8 +52,8 @@ div.related-tags {
         }
 
         a.selected {
-          background-color: $link_color;
-          color: white;
+          background: var(--selected-related-tag-color);
+          color: var(--selected-related-tag-color);
         }
       }
     }
